@@ -9,13 +9,13 @@
 
 
 class lc_clients {
-private :
+public :
     std::string nom_du_client;
     int numero;
     std::string rue;
 
     lc_clients* suivante;
-public :
+    lc_clients* remplirliste(std::string nom_du_client, int numero, std::string rue);
     //fonctions jsp
 
 };

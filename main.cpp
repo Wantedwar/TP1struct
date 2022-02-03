@@ -1,6 +1,8 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include "lc_clients.h"
+#include "lc_commandes.h"
 
 using namespace std;
 

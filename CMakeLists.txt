@@ -3,4 +3,4 @@ project(TP1struct)
 
 set(CMAKE_CXX_STANDARD 23)
 
-add_executable(untitled4 main.cpp cmake-build-debug/lc_clients.cpp cmake-build-debug/lc_clients.h cmake-build-debug/lc_commandes.cpp cmake-build-debug/lc_commandes.h)
+add_executable(untitled4 main.cpp lc_clients.cpp lc_clients.h lc_commandes.cpp lc_commandes.h)
