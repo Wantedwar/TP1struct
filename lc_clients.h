@@ -6,7 +6,7 @@
 #define UNTITLED4_LC_CLIENTS_H
 #include <iostream>
 
-
+/*
 
 class lc_clients {
 public :
@@ -14,11 +14,27 @@ public :
     int numero;
     std::string rue;
 
-    lc_clients* suivante;
-    lc_clients* remplirliste(std::string nom_du_client, int numero, std::string rue);
-    //fonctions jsp
+    lc_clients* precedent;
+    lc_clients* nouvelle(std::string nom_du_client, int numero, std::string rue);
+    /*fonctions jsp
+     * ajouter
+     * supprimer
+     * rechercher
+     * vider
+     *
 
 };
+*/
+
+struct lc_clients{
+    std::string nom_du_client;
+    int numero;
+    std::string rue;
+    lc_clients* suivant;
+};
+lc_clients *premiernoeud(std::string nom_du_client, int numero, std::string rue);
+lc_clients* ajouternoeud(std::string nom_du_client, int numero, std::string rue, lc_clients* suiv);
+std::string lire_tout_clients(lc_clients* derniernoeud);
 
 
 #endif //UNTITLED4_LC_CLIENTS_H

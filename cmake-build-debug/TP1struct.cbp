@@ -80,16 +80,16 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/jser/CLionProjects/TP1struct/cmake-build-debug/lc_clients.cpp">
+		<Unit filename="C:/Users/jser/CLionProjects/TP1struct/lc_clients.cpp">
 			<Option target="untitled4"/>
 		</Unit>
-		<Unit filename="C:/Users/jser/CLionProjects/TP1struct/cmake-build-debug/lc_clients.h">
+		<Unit filename="C:/Users/jser/CLionProjects/TP1struct/lc_clients.h">
 			<Option target="untitled4"/>
 		</Unit>
-		<Unit filename="C:/Users/jser/CLionProjects/TP1struct/cmake-build-debug/lc_commandes.cpp">
+		<Unit filename="C:/Users/jser/CLionProjects/TP1struct/lc_commandes.cpp">
 			<Option target="untitled4"/>
 		</Unit>
-		<Unit filename="C:/Users/jser/CLionProjects/TP1struct/cmake-build-debug/lc_commandes.h">
+		<Unit filename="C:/Users/jser/CLionProjects/TP1struct/lc_commandes.h">
 			<Option target="untitled4"/>
 		</Unit>
 		<Unit filename="C:/Users/jser/CLionProjects/TP1struct/main.cpp">

@@ -83,32 +83,32 @@ CMakeFiles/untitled4.dir/main.cpp.s: cmake_force
 	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jser\CLionProjects\TP1struct\main.cpp -o CMakeFiles\untitled4.dir\main.cpp.s
 
 CMakeFiles/untitled4.dir/lc_clients.cpp.obj: CMakeFiles/untitled4.dir/flags.make
-CMakeFiles/untitled4.dir/lc_clients.cpp.obj: lc_clients.cpp
+CMakeFiles/untitled4.dir/lc_clients.cpp.obj: ../lc_clients.cpp
 CMakeFiles/untitled4.dir/lc_clients.cpp.obj: CMakeFiles/untitled4.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jser\CLionProjects\TP1struct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/untitled4.dir/lc_clients.cpp.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled4.dir/lc_clients.cpp.obj -MF CMakeFiles\untitled4.dir\lc_clients.cpp.obj.d -o CMakeFiles\untitled4.dir\lc_clients.cpp.obj -c C:\Users\jser\CLionProjects\TP1struct\cmake-build-debug\lc_clients.cpp
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled4.dir/lc_clients.cpp.obj -MF CMakeFiles\untitled4.dir\lc_clients.cpp.obj.d -o CMakeFiles\untitled4.dir\lc_clients.cpp.obj -c C:\Users\jser\CLionProjects\TP1struct\lc_clients.cpp
 
 CMakeFiles/untitled4.dir/lc_clients.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/lc_clients.cpp.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jser\CLionProjects\TP1struct\cmake-build-debug\lc_clients.cpp > CMakeFiles\untitled4.dir\lc_clients.cpp.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jser\CLionProjects\TP1struct\lc_clients.cpp > CMakeFiles\untitled4.dir\lc_clients.cpp.i
 
 CMakeFiles/untitled4.dir/lc_clients.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/lc_clients.cpp.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jser\CLionProjects\TP1struct\cmake-build-debug\lc_clients.cpp -o CMakeFiles\untitled4.dir\lc_clients.cpp.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jser\CLionProjects\TP1struct\lc_clients.cpp -o CMakeFiles\untitled4.dir\lc_clients.cpp.s
 
 CMakeFiles/untitled4.dir/lc_commandes.cpp.obj: CMakeFiles/untitled4.dir/flags.make
-CMakeFiles/untitled4.dir/lc_commandes.cpp.obj: lc_commandes.cpp
+CMakeFiles/untitled4.dir/lc_commandes.cpp.obj: ../lc_commandes.cpp
 CMakeFiles/untitled4.dir/lc_commandes.cpp.obj: CMakeFiles/untitled4.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\jser\CLionProjects\TP1struct\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/untitled4.dir/lc_commandes.cpp.obj"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled4.dir/lc_commandes.cpp.obj -MF CMakeFiles\untitled4.dir\lc_commandes.cpp.obj.d -o CMakeFiles\untitled4.dir\lc_commandes.cpp.obj -c C:\Users\jser\CLionProjects\TP1struct\cmake-build-debug\lc_commandes.cpp
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/untitled4.dir/lc_commandes.cpp.obj -MF CMakeFiles\untitled4.dir\lc_commandes.cpp.obj.d -o CMakeFiles\untitled4.dir\lc_commandes.cpp.obj -c C:\Users\jser\CLionProjects\TP1struct\lc_commandes.cpp
 
 CMakeFiles/untitled4.dir/lc_commandes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/untitled4.dir/lc_commandes.cpp.i"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jser\CLionProjects\TP1struct\cmake-build-debug\lc_commandes.cpp > CMakeFiles\untitled4.dir\lc_commandes.cpp.i
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\jser\CLionProjects\TP1struct\lc_commandes.cpp > CMakeFiles\untitled4.dir\lc_commandes.cpp.i
 
 CMakeFiles/untitled4.dir/lc_commandes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/untitled4.dir/lc_commandes.cpp.s"
-	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jser\CLionProjects\TP1struct\cmake-build-debug\lc_commandes.cpp -o CMakeFiles\untitled4.dir\lc_commandes.cpp.s
+	C:\PROGRA~1\CODEBL~1\MinGW\bin\G__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\jser\CLionProjects\TP1struct\lc_commandes.cpp -o CMakeFiles\untitled4.dir\lc_commandes.cpp.s
 
 # Object files for target untitled4
 untitled4_OBJECTS = \
