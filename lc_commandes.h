@@ -24,7 +24,10 @@ struct lc_commandes{
 };
 lc_commandes* premierecommande(std::string clients_sources, std::string clients_destinataires, std::string biscuit);
 lc_commandes* ajoutercommande(std::string clients_sources, std::string clients_destinataires, std::string biscuit, lc_commandes* suiv);
-std::string lire_commandes(lc_commandes* premiernoeud);
+std::string lire_commandes(lc_commandes* tete);
+std::string recherche_commande(lc_commandes *tete, std::string client);
+std::string recherche_biscuit(lc_commandes *tete, std::string client);
+
 
 
 /*fonctions jsp

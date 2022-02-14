@@ -80,6 +80,12 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/jser/CLionProjects/TP1struct/cool_utilities.cpp">
+			<Option target="untitled4"/>
+		</Unit>
+		<Unit filename="C:/Users/jser/CLionProjects/TP1struct/cool_utilities.h">
+			<Option target="untitled4"/>
+		</Unit>
 		<Unit filename="C:/Users/jser/CLionProjects/TP1struct/lc_clients.cpp">
 			<Option target="untitled4"/>
 		</Unit>

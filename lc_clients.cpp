@@ -47,17 +47,17 @@ lc_clients* ajouternoeud(std::string nom_du_client, int numero, std::string rue,
 }
 
 
-std::string lire_tout_clients(lc_clients *derniernoeud) {
+std::string lire_tout_clients(lc_clients* tclients) {
     std::cout << "debut lecture" << std::endl;
     std::string temp;
-    temp += derniernoeud->nom_du_client + "\n";
-    temp += std::to_string(derniernoeud->numero) + "\n";
-    temp += derniernoeud->rue + "\n";
+    temp += tclients->nom_du_client + "\n";
+    temp += std::to_string(tclients->numero) + "\n";
+    temp += tclients->rue + "\n";
 
-    lc_clients* noeudalire = derniernoeud->suivant;
+    lc_clients* noeudalire = tclients->suivant;
 
         while (noeudalire){
-            std::cout << "lecture du noeud" << noeudalire << std::endl;
+            std::cout << "lecture du noeud " << noeudalire << std::endl;
             temp += noeudalire->nom_du_client + "\n";
             temp += std::to_string(noeudalire->numero) + "\n";
             temp += noeudalire->rue + "\n";
@@ -66,5 +66,24 @@ std::string lire_tout_clients(lc_clients *derniernoeud) {
 
     return temp;
 
+
+}
+
+void sup_client(std::string client, lc_clients *tete) {
+    lc_clients* ccourant, *csuivant;
+    ccourant = tete;
+
+    if(tete->nom_du_client == client){
+        //cvuivant = tete->suivant;
+        //delete csuivant;
+        tete = ccourant->suivant;
+        return;
+    }
+    while(ccourant->suivant){//changer la condition parce qu'on check pas la dernière case
+        if (ccourant->suivant->nom_du_client == client){
+            ccourant->suivant = ccourant->suivant->suivant;
+            return;
+        }
+    }
 
 }

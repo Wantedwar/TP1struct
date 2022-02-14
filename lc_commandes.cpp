@@ -23,23 +23,48 @@ lc_commandes* ajoutercommande(std::string clients_sources, std::string clients_d
     return temp;
 }
 
-std::string lire_commandes(lc_commandes *dernierecommande) {
+std::string lire_commandes(lc_commandes *tete) {
     std::cout << "debut lecture" << std::endl;
     std::string temp;
-    temp += dernierecommande->clients_sources + "\n";
-    temp += dernierecommande->clients_destinataires + "\n";
-    temp += dernierecommande->biscuits + "\n";
+    temp += tete->clients_sources + "\n";
+    temp += tete->clients_destinataires + "\n";
+    temp += tete->biscuits + "\n";
 
-    lc_commandes* commalire = dernierecommande->suivant;
+    lc_commandes* commalire = tete->suivant;
 
     while (commalire){
         std::cout << "lecture du noeud" << commalire << std::endl;
         temp += commalire->clients_sources + "\n";
         temp += commalire->clients_destinataires + "\n";
-        temp += commalire->biscuits + "\n";
-        temp += "&`\n";
+        temp += commalire->biscuits + "";
+        temp += "&\n";
         commalire = commalire->suivant; //yolo
     }
 
     return temp;
 }
+
+
+std::string recherche_commande(lc_commandes *tete, std::string client) {
+    std::string temp;
+    temp = "Commandes effectuees par : " + client + "\n";
+    while(tete->suivant != nullptr){
+        if(tete->clients_destinataires == client)
+            temp += tete->biscuits;
+        tete = tete->suivant;
+    }
+    temp += "&\n";
+    return temp;
+}
+//FONCTION A FINIR
+std::string recherche_biscuit(lc_commandes *tete, std::string client) {
+    std::string temp;
+    while(tete->suivant != nullptr){
+        //do things
+        tete = tete->suivant;
+    }
+    return temp;
+}
+
+
+

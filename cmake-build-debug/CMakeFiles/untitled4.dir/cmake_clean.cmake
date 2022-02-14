@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/untitled4.dir/cool_utilities.cpp.obj"
+  "CMakeFiles/untitled4.dir/cool_utilities.cpp.obj.d"
   "CMakeFiles/untitled4.dir/lc_clients.cpp.obj"
   "CMakeFiles/untitled4.dir/lc_clients.cpp.obj.d"
   "CMakeFiles/untitled4.dir/lc_commandes.cpp.obj"

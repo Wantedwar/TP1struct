@@ -35,6 +35,7 @@ struct lc_clients{
 lc_clients *premiernoeud(std::string nom_du_client, int numero, std::string rue);
 lc_clients* ajouternoeud(std::string nom_du_client, int numero, std::string rue, lc_clients* suiv);
 std::string lire_tout_clients(lc_clients* derniernoeud);
+void sup_client(std::string client, lc_clients* tete);
 
 
 #endif //UNTITLED4_LC_CLIENTS_H

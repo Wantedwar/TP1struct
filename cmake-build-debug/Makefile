@@ -128,6 +128,30 @@ untitled4/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/build
 .PHONY : untitled4/fast
 
+cool_utilities.obj: cool_utilities.cpp.obj
+.PHONY : cool_utilities.obj
+
+# target to build an object file
+cool_utilities.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/cool_utilities.cpp.obj
+.PHONY : cool_utilities.cpp.obj
+
+cool_utilities.i: cool_utilities.cpp.i
+.PHONY : cool_utilities.i
+
+# target to preprocess a source file
+cool_utilities.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/cool_utilities.cpp.i
+.PHONY : cool_utilities.cpp.i
+
+cool_utilities.s: cool_utilities.cpp.s
+.PHONY : cool_utilities.s
+
+# target to generate assembly for a file
+cool_utilities.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\untitled4.dir\build.make CMakeFiles/untitled4.dir/cool_utilities.cpp.s
+.PHONY : cool_utilities.cpp.s
+
 lc_clients.obj: lc_clients.cpp.obj
 .PHONY : lc_clients.obj
 
@@ -209,6 +233,9 @@ help:
 	@echo ... edit_cache
 	@echo ... rebuild_cache
 	@echo ... untitled4
+	@echo ... cool_utilities.obj
+	@echo ... cool_utilities.i
+	@echo ... cool_utilities.s
 	@echo ... lc_clients.obj
 	@echo ... lc_clients.i
 	@echo ... lc_clients.s
